@@ -16,7 +16,5 @@ p{
 image img{
     width: 300px;
     height: 400px;
-    display: block;
-    margin-right: 0;
     border-radius: 30px;
 }
