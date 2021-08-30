@@ -1,0 +1,22 @@
+
+body{
+    background-color: gray;
+}
+.snack_name a{
+    text-decoration: none;
+}
+h2{
+    font-family: verdana;
+    font-size: 20px;
+}
+
+p{
+    font-family: Helvetica, Geneva, Arial,SunSans-Regular, sans-serif;
+}
+image img{
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin-right: 0;
+    border-radius: 30px;
+}

@@ -3,6 +3,8 @@
 
 {% block content %}
   {% for snack in object_list %}
-  <h2><a href="{% url 'snack_detail' snack.pk %}">{{ snack.name }}</a></h2>
+  <div class="snack_name">
+    <h2><a href="{% url 'snack_detail' snack.pk %}">{{ snack.name }}</a></h2>
+  </div>
   {% endfor %}
 {% endblock content %}
